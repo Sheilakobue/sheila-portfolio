@@ -37,9 +37,14 @@ export default function About() {
           </article>
         </div>
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error provident mollitia delectus ab. Provident tenetur obcaecati architecto corrupti eum fugit inventore aspernatur, explicabo dolore rerum earum adipisci distinctio nihil nesciunt?
+        <p>
+          I am an enthusiastic, resourceful, self-motivated, reliable, responsible and hard-working person. I am adaptable to all challenging
+          situations, I can work well both in a team environment as well as using my own initiative. I can work well under pressure and adhere to
+          strict deadlines.
         </p>
-        <a href='#contact' className='btn btn.primary'>Let's Talk</a>
+        <a href="#contact" className="btn btn.primary">
+          Let's Talk
+        </a>
       </div>
     </section>
   );

@@ -6,6 +6,7 @@ import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
+import Education from "./components/education/Education"
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/" exact element={<Header />} />
         <Route path="/About" element={<About />} />
         <Route path="/Experience" element={<Experience />} />
+        <Route path="/Education" element={<Education />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/Portfolio" element={<Portfolio />} />
         <Route path="/Testimonials" element={<Testimonials />} />
