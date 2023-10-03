@@ -1,10 +1,19 @@
-import React from 'react';
 import './Contact.css';
+import { Fragment } from 'react';
 
-export default function Contact() {
+
+import ContactForm from '../contact/contact-form';
+
+function Contact() {
   return (
-    <section id='contact'>
-      contact
-    </section>
-  )
+    <Fragment>
+      
+        <title>Contact Me</title>
+        <meta name='description' content='Send me your messages!' />
+      
+      <ContactForm />
+    </Fragment>
+  );
 }
+
+export default Contact;

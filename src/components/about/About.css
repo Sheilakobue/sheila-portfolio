@@ -1,30 +1,50 @@
-.about_container{
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap:15%;
-
+.about_card_container {
+    border: 2px solid #3498db;
+    /* Blue border */
+    box-shadow: 0 4px 8px rgba(170, 222, 239, 0.5);
+    /* Shadow */
+    border-radius: 10px;
+    /* Rounded corners */
+    overflow: hidden;
+    margin: 20px;
+    /* Adjust margin as needed */
+    max-width: 600px;
+    /* Set a maximum width */
+    margin: auto;
+    /* Center the card */
 }
 
-.about_me{
-    width: 100%;
+.about_card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.about_me {
+    width: 50%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(
-        45deg,
-        transparent,
-        var(--color-primary),
-        transparent
-    );
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
 }
 
-.about_me.image{
+.about_me.image {
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
 }
-.about_me.image:hover{
+
+.about_me.image:hover {
     transform: rotate(0);
+}
+
+.about_text {
+    width: 100%;
+}
+
+.btn.primary {
+    margin-top: 20px;
+    /* Adjust margin as needed */
 }

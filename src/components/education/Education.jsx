@@ -11,13 +11,19 @@ export default function Education() {
           </legend>
 
           <div className="education-item">
-            <h3>Sterkrevier Combined School</h3>
-            <p>2005</p>
-            <p>Grade 12</p>
-            <p>
-              English, Sepedi, Afrikaans, Mathematics, Physical Science,
-              Biology, History.
-            </p>
+            <p>December 2022</p>
+            <h3>
+              Programming Fundamentals{" "}
+              <a href="https://www.codespace.co.za/">Codespace</a>
+            </h3>
+          </div>
+
+          <div className="education-item">
+            <p>January 2023-December 2023</p>
+            <h3>
+              Software Development{" "}
+              <a href="https://www.codespace.co.za/">Codespace</a>
+            </h3>
           </div>
 
           <div className="education-item">
@@ -28,18 +34,13 @@ export default function Education() {
           </div>
 
           <div className="education-item">
-            <p>December 2022</p>
-            <h3>
-              Programming Fundamentals{" "}
-              <a href="https://www.codespace.co.za/">Codespace</a>
-            </h3>
-          </div>
-
-          <div className="education-item">
-            <p>March 2023</p>
-            <h3>
-              Intro to Web <a href="https://www.codespace.co.za/">Codespace</a>
-            </h3>
+            <h3>Sterkrevier Combined School</h3>
+            <p>2005</p>
+            <p>Grade 12</p>
+            <p>
+              English, Sepedi, Afrikaans, Mathematics, Physical Science,
+              Biology, History.
+            </p>
           </div>
         </fieldset>
       </article>

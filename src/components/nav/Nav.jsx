@@ -1,6 +1,7 @@
 import "./Nav.css";
 import { FaHome, FaUserAlt, FaBookReader } from "react-icons/fa";
 import { RiServiceFill, RiMessage2Fill } from "react-icons/ri";
+import { FaUserGraduate } from "react-icons/fa";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -34,6 +35,15 @@ export default function Nav() {
         title="Experience"
       >
         <FaBookReader />
+      </Link>
+
+      <Link
+        to="/Education"
+        onClick={() => setActiveNav("#education")}
+        className={activeNav === "#education" ? "active" : ""}
+        title="Education"
+      >
+        <FaUserGraduate />
       </Link>
 
       <Link

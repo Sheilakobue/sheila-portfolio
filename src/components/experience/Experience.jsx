@@ -13,12 +13,13 @@ export default function Experience() {
           </legend>
 
           <div className="experience-item">
-            <h3>Edcon Call Centre</h3>
-            <p>01/04/2009 - 30/02/2011</p>
-            <p>Call Centre Agent</p>
+            <h3>Statistic South Africa</h3>
+            <p>27/12/2021 - 30/07/2022</p>
+            <p>Field Operation Officer (FOO)</p>
             <p>
-              Customer services, collection, inbound and outbound new accounts,
-              capturing customers information on Devox
+              Coordinate and supervise the work assigned to Fieldworkers and
+              Field supervisors, Control visits and refusals from field work
+              supervisors
             </p>
           </div>
 
@@ -35,13 +36,12 @@ export default function Experience() {
           </div>
 
           <div className="experience-item">
-            <h3>Statistic South Africa</h3>
-            <p>27/12/2021 - 30/07/2022</p>
-            <p>Field Operation Officer (FOO)</p>
+            <h3>Edcon Call Centre</h3>
+            <p>01/04/2009 - 30/02/2011</p>
+            <p>Call Centre Agent</p>
             <p>
-              Coordinate and supervise the work assigned to Fieldworkers and
-              Field supervisors, Control visits and refusals from field work
-              supervisors
+              Customer services, collection, inbound and outbound new accounts,
+              capturing customers information on Devox
             </p>
           </div>
         </fieldset>
